@@ -3,6 +3,7 @@ import { defineConfig, devices } from '@playwright/test';
 export default defineConfig({
   reporter: 'list',
   timeout: 7 * 1000,
+  workers: '50%',
   testDir: './tests',
   outputDir: './tmp/artifacts',
   use: {

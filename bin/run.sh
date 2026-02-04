@@ -7,4 +7,4 @@ cd "$DIR_TESTS"
 npm install
 
 npx playwright install chromium
-npx playwright test
+npm run test
